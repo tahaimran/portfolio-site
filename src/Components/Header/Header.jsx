@@ -2,23 +2,23 @@ import React from 'react'
 
 function Header() {
   return (
-    <div class="h-[10vh]  p-4 ">
-    <nav className='container flex  items-center fixed  text-white '>
+    <div className='container flex flex-col md:flex-row  items-center h-[10vh] fixed top-0  p-4   bg-white     text-white '>
       <div className='logo flex-1'>
         <h4 className='text-4xl font-semibold'>Taha</h4>
       </div>
       <div className='list flex-1 '>
-        <div className='flex items-evenly  justify-evenly '>
-          <ol className='cursor-pointer text-xl '>About</ol>
-          <ol className='cursor-pointer text-xl'>Testimonials</ol>
-          <ol className='cursor-pointer text-xl'>Work</ol>
-          <ol className='cursor-pointer text-xl'>Skills</ol>
-          <ol className='cursor-pointer text-xl'>Blog</ol>
-          <ol className='cursor-pointer text-xl'>Contact</ol>
-        </div>
+        <ol className='flex-1 flex  items-evenly  justify-evenly '>
+          <li className='cursor-pointer hover:underline  text-xl '>About</li>
+          <li className='cursor-pointer text-xl'>Testimonials</li>
+          <li className='cursor-pointer text-xl'>Work</li>
+          <li className='cursor-pointer text-xl'>Skills</li>
+          <li className='cursor-pointer text-xl'>Blog</li>
+          <li className='cursor-pointer  text-xl'>Contact</li>
+        </ol>
       </div>
-    </nav>
     </div>
+
+    
   )
 }
 
