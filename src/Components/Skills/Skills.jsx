@@ -14,9 +14,9 @@ import Git from '../../Images/Skills/git.png'
 
 function Skills() {
   return (
-    <div id='skill'  className='container flex flex-col '>
-      <div className=''>
-        <h2 className='text-4xl font-semibold  text-white'>Skills</h2>
+    <div id='skill'  className='container flex flex-col mb-44'>
+      <div className='text-center'>
+        <h2 className='text-6xl font-semibold  text-white'>Skills</h2>
       </div>
       <div className='flex  flex-col justify-evenly  text-white my-10 '>
         <div className='flex flex-row justify-evenly '>

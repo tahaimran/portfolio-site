@@ -3,9 +3,9 @@ import {Link} from 'react-scroll';
 import {animateScroll as Scroll} from 'react-scroll'
 function Header() {
   return (
-    <div className='container flex flex-col md:flex-row  items-center h-[10vh] fixed top-0  p-4 text-white '>
+    <div className='container flex flex-col md:flex-row  items-center h-[10vh]  fixed top-0   p-4 text-white '>
       <div className='logo flex-1'>
-        <h4 className='text-5xl font-semibold'>T</h4>
+      <h4 className='text-5xl font-semibold cursor-pointer'>T</h4>
       </div>
       <div className='list flex-1 '>
         <ol className='flex-1 flex  items-evenly  justify-evenly '>
