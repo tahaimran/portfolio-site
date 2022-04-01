@@ -2,7 +2,7 @@ import React from 'react'
 
 function Blog() {
     return (
-        <div className='flex flex-col my-48'>
+        <div className='flex flex-col '>
             <div>
                 <h2 className='text-4xl font-bold  text-white'>Blog</h2>
             </div>
