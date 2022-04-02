@@ -6,7 +6,7 @@ function Testimonials() {
             <div className='text-center'>
                 <h2 className='text-6xl font-semibold  text-white'>Testimonials</h2>
             </div>
-            <div className=' flex flex-col items-center sm:flex-row sm:justify-evenly my-10'>
+            <div className=' flex flex-col items-center sm:flex-row sm:justify-evenly my-10 mt-28'>
                 <div className='border-4 rounded-lg data    w-[450px] text-white p-5'>
                     <p className='mb-8 leading-8 '>Taha is a very fast learner and is a very sincere individual. He explores new technologies and is unafraid of trying our things.Avneesh on React JS and Next JS and demonstrated good business understanding apart from the programming and user skills.</p>
                     <div className='flex justify-start items-center'>

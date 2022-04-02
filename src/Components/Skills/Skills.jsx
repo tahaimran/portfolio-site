@@ -18,7 +18,7 @@ function Skills() {
       <div className='text-center'>
         <h2 className='text-6xl font-semibold  text-white'>Skills</h2>
       </div>
-      <div className='flex  flex-col justify-evenly  text-white my-10 '>
+      <div className='flex  flex-col justify-evenly  text-white my-10 mt-28'>
         <div className='flex flex-row justify-evenly '>
           <img className='w-[80px] h-[80px] cursor-pointer hover:scale-125 hover:duration-500' src={ReactJS} />
           <img className='w-[80px] h-[80px] cursor-pointer hover:scale-125 hover:duration-500' src={Typescript} />
