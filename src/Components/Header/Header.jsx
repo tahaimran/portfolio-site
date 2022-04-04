@@ -4,7 +4,7 @@ import {animateScroll as Scroll} from 'react-scroll'
 import Logo from '../../Images/logo.png'
 function Header() {
   return (
-    <div className='container flex flex-col md:flex-row  items-center h-[10vh]  fixed top-0   p-4 text-white '>
+    <div className='container flex flex-col md:flex-row  items-center h-[auto]  fixed top-0 bg-[#A30C5A]   p-4 text-white '>
       <div className='logo flex-1'>
        <img className='w-16 invert   font-semibold cursor-pointer'  onClick={()=> Scroll.scrollToTop()}   src={Logo}/>
       </div>
