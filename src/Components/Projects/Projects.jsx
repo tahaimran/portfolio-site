@@ -15,8 +15,8 @@ function Projects() {
                     <hr className='w-[300px]' />Projects<hr className='w-[300px]' />
                 </h2>
             </div>
-            <div className='flex flex-col mt-28 items-center'>
-                <div className='flex flex-col w-[90%]   items-start sm:w-[100%]  sm:flex-row justify-evenly '>
+            <div className='flex flex-col flex-wrap  mt-28 items-center'>
+                <div className='flex flex-col w-[400px]   items-start sm:w-[100%]  sm:flex-row justify-evenly '>
                     <div className=' sm:w-1/3'>
                         <img className='rounded-lg border-4 border-[#E4515E] ' src={Map} alt="" />
                     </div>
@@ -29,7 +29,7 @@ function Projects() {
                     </div>
 
                 </div>
-                <div className='flex flex-col w-[90%]   items-start sm:w-[100%]  sm:flex-row-reverse justify-evenly mt-10'>
+                <div className='flex flex-col w-[400px]   items-start sm:w-[100%]  sm:flex-row-reverse justify-evenly mt-10'>
                     <div className=' sm:w-1/3'>
                         <img className='rounded-lg border-4 border-[#E4515E]' src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/776/962/datas/gallery.jpg" alt="" />
                     </div>
