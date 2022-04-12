@@ -21,7 +21,7 @@ function Testimonials() {
                 </div>
                 <div className='flex flex-col justify-evenly border-4 rounded-lg data mt-10 sm:mt-0 w-[400px] h-[300px]  sm:w-[450px] text-white p-5'>
                     <div>
-                        <p className='mb-8 leading-8'>Muhammand Taha Imran is an enthusiastic developer and also one who is eager to share his learnings with the community for the betterment of others.</p>
+                        <p className='mb-8 leading-8'>It's been a great time working with Taha as he's a passionate boy who  identify and solve problem. His habit of not giving up is the one which make him stand out in the competition. </p>
                     </div>
                     <div className='flex justify-start items-center'>
                         <img className='w-14 rounded-sm' src="https://lh3.googleusercontent.com/a-/AOh14GgErE6_YKpgj7zMKv2anYEBnetUdZG8ZiWZ0jhbAg=s70-p-k-rw-no" alt="" />
